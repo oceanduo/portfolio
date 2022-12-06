@@ -1,0 +1,50 @@
+@import "../../global.scss";
+
+
+
+.menu { 
+    width: 280px;
+    height: 100%;
+    background-color: $mainColor;
+    color: azure;
+    
+    position: fixed;
+
+   
+  
+top: 0px;
+right: 0px;
+z-index: 2;
+transition: all 1.5s ease;
+font-size: 1.5rem;
+
+ul {text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 60%;
+padding-top: 20%;
+list-style:georgian;
+// list-style: none;
+// 去掉前面的点
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  
+
+
+li:hover {font-weight: 800;}} 
+
+&.close { 
+    right: -280px;
+    opacity: 10%;
+}
+}
+
+
+
+
