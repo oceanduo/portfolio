@@ -19,10 +19,10 @@ function App() {
     <div className="app">
      <Topbar menuOpen ={menuOpen} setMenuOpen={setMenuOpen}/>
      <Menu menuOpen ={menuOpen} setMenuOpen={setMenuOpen}/>
+     
      <div className="sections">
       <Intro />
-      <Portfolio />
-      <Feedback/>
+      <Portfolio className='portfolio' />
       <Contact/>
       
 

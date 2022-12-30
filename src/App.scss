@@ -1,3 +1,10 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+
+  }
+
 .app { height: 100vh;
 overflow-x: hidden;
 // 代表当超出了x轴时，会隐藏而不是有一个scroll bar
@@ -14,11 +21,16 @@ scroll-behavior: smooth;
     position: relative;
     top: 70px;
 // 也可以用 position：relative; top: 70px 达到相似的效果
-    background-color: thistle;    
+    background-color: thistle;  
+    
+    .portfolio { height: fit-content;
+        }
 }
 
     .sections > * { height: calc(100vh - 70px);
     width: 100vw;
+
+   
  
 }
 // scroll-snap-align: start;

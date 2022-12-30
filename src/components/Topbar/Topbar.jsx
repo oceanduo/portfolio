@@ -13,8 +13,8 @@ export default function Topbar(props) {
 <div className="left">
 <h1>  <Face4Icon className="icon"/> Ocean DUO</h1>  
 
-<SmartphoneIcon/>  <p> 040 5585 668</p>
-<MailOutlineIcon/> <p> oceanduo@gmail.com</p>
+<SmartphoneIcon className="smallscreen"/>  <p className="smallscreen"> 040 5585 668</p>
+<MailOutlineIcon className="smallscreen"/> <p className="smallscreen"> oceanduo@gmail.com</p>
 
 </div>
 
